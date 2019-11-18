@@ -1,7 +1,7 @@
 class Costume < ActiveRecord::Base
   attr_accessor :image_url
 
-  def intialize(image_url:)
+  def intialize(image_url)
     @image_url = image_url
   end
 end
